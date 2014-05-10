@@ -1,0 +1,68 @@
+[Eagle]
+Version="06 02 00"
+Platform="Windows"
+Serial="6E1EA14967-LSR-WLM50EP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="H:/EAGLE/Libraries/FormulaSAE.lbr"
+UsedLibrary="H:/EAGLE/Libraries/Jon_LIB.lbr"
+UsedLibrary="H:/EAGLE/Libraries/MAAV.lbr"
+UsedLibrary="H:/EAGLE/Libraries/MAAV_ESC.lbr"
+UsedLibrary="H:/EAGLE/Libraries/MESH_Arduino.lbr"
+UsedLibrary="H:/EAGLE/Libraries/SparkFun.lbr"
+UsedLibrary="H:/EAGLE/Libraries/temp.lbr"
+UsedLibrary="S:/CAEN/EAGLE-6.2.0/lbr/frames.lbr"
+
+[Win_1]
+Type="Library Editor"
+Loc="62 0 974 1161"
+State=0
+Number=1
+File="H:/EAGLE/Libraries/Jon_LIB.lbr"
+View="-27.6763 -19.1316 21.1404 15.3149"
+WireWidths=" 0 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.127 0.254"
+PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
+ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 1.27"
+PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
+PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
+SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
+WireBend=0
+WireBendSet=0
+WireCap=1
+MiterStyle=0
+PadShape=0
+ViaShape=0
+PolygonPour=0
+PolygonRank=0
+PolygonThermals=1
+PolygonOrphans=0
+TextRatio=8
+PinDirection=3
+PinFunction=0
+PinLength=2
+PinVisible=2
+SwapLevel=0
+ArcDirection=0
+AddLevel=2
+PadsSameType=0
+Layer=94
+Symbol="TMP100"
+
+[Win_2]
+Type="Control Panel"
+Loc="991 0 1903 1161"
+State=2
+Number=0
+
+[Desktop]
+Screen="1920 1200"
+Window="Win_1"
+Window="Win_2"

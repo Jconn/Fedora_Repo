@@ -1,0 +1,26 @@
+[Eagle]
+Version="06 02 00"
+Platform="Windows"
+Serial="6E1EA14967-LSR-WLM50EP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="H:/EAGLE/Libraries/FormulaSAE.lbr"
+UsedLibrary="H:/EAGLE/Libraries/Jon_LIB.lbr"
+UsedLibrary="H:/EAGLE/Libraries/MAAV.lbr"
+UsedLibrary="H:/EAGLE/Libraries/MAAV_ESC.lbr"
+UsedLibrary="H:/EAGLE/Libraries/MESH_Arduino.lbr"
+UsedLibrary="H:/EAGLE/Libraries/SparkFun.lbr"
+UsedLibrary="H:/EAGLE/Libraries/temp.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="991 0 1903 1041"
+State=2
+Number=0
+
+[Desktop]
+Screen="1920 1080"
+Window="Win_1"
