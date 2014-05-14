@@ -1,12 +1,13 @@
 README file for the MAAV EAGLE git repo
 
-do not add gerber files or zip files to the repo
-edit the .gitignore file with any extensions that for gerber files if encountered
+*Do not add gerber files or zip files to the repo
 
-don't forget to add your name and email address your local config
+*Edit the .gitignore file with any extensions that for gerber files if encountered
 
-If you find errors in libraries, please fix them imediately or contact the author to report the error.
+*Don't forget to add your name and email address your local config
 
-You should not trust any of the files in this repo.  Please verify all componenets for yourself!
+*If you find errors in libraries, please fix them imediately or contact the author to report the error.
+
+*You should not trust any of the files in this repo.  PLEASE VERIFY ALL COMPONENTS FOR YOURSELF!
 
 
