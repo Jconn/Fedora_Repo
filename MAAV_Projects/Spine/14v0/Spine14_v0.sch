@@ -1747,8 +1747,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="-14.8" y1="0.9" x2="-14.8" y2="-0.9" width="0.127" layer="21"/>
 <wire x1="-14.8" y1="-0.9" x2="-6.2" y2="-0.9" width="0.127" layer="21"/>
 <wire x1="-13.4" y1="1.8" x2="-13.4" y2="3" width="0.127" layer="21"/>
-<wire x1="-12.8" y1="2.4" x2="-14" y2="2.4" width="0.127" layer="21"/>
 <wire x1="-7.9" y1="1.8" x2="-7.9" y2="3" width="0.127" layer="21"/>
+<wire x1="-7.3" y1="2.4" x2="-8.5" y2="2.4" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1792,7 +1792,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </symbol>
 <symbol name="M02">
 <wire x1="3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.5" x2="2.54" y2="2.5" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
 <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
 <wire x1="3.81" y1="-2.54" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
@@ -1800,7 +1800,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="2.5" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -21383,7 +21383,7 @@ Stop Threshold 0.5 V</text>
 <net name="N$15" class="0">
 <segment>
 <wire x1="-30.48" y1="-20.24" x2="-30.477459375" y2="-37.46" width="0.1524" layer="91"/>
-<wire x1="-30.477459375" y1="-37.46" x2="-30.48" y2="-38.14" width="0.1524" layer="91"/>
+<wire x1="-30.477459375" y1="-37.46" x2="-30.48" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="P-FET1" gate="G$1" pin="D"/>
 <pinref part="MOUT1" gate="G$1" pin="2"/>
 </segment>
@@ -21469,18 +21469,19 @@ Stop Threshold 0.5 V</text>
 <label x="10.16" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="POWER" class="0">
+<net name="N$3" class="0">
+<segment>
+<wire x1="22.86" y1="-25.4" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="MOUT2" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="-25.4" x2="27.94" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="V_BATT" class="0">
 <segment>
 <label x="17.78" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="22.86" y1="0" x2="17.78" y2="0" width="0.1524" layer="91"/>
 <pinref part="P-FET2" gate="G$1" pin="S"/>
 <wire x1="22.86" y1="0" x2="22.86" y2="-10.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="27.94" y1="-25.4" x2="22.86" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="-25.4" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
