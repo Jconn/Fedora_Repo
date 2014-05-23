@@ -19034,7 +19034,7 @@ Source: www.kingbright.com</description>
 <text x="-114.3" y="-20.32" size="1.778" layer="91">10-31V</text>
 <text x="-96.52" y="-17.78" size="1.778" layer="91">Start Threshold 1.3 V
 Stop Threshold 0.5 V</text>
-<text x="-30.48" y="30.48" size="3.81" layer="97">Board Power Management Systems</text>
+<text x="-35.56" y="30.48" size="3.81" layer="97">Board Power Management Systems</text>
 <text x="-63.5" y="-17.78" size="2.54" layer="95">5V Power Supply</text>
 <text x="88.9" y="-15.24" size="2.54" layer="95">3V3 Power Supply</text>
 <wire x1="58.42" y1="-10.16" x2="172.72" y2="-10.16" width="0.1524" layer="97"/>
@@ -19051,10 +19051,10 @@ Stop Threshold 0.5 V</text>
 <wire x1="58.42" y1="22.86" x2="96.52" y2="22.86" width="0.3048" layer="97"/>
 <wire x1="96.52" y1="22.86" x2="96.52" y2="15.24" width="0.3048" layer="97"/>
 <text x="-2.54" y="17.78" size="2.54" layer="95">THE Power Switch</text>
-<wire x1="-33.02" y1="22.86" x2="55.88" y2="22.86" width="0.8128" layer="97"/>
+<wire x1="-43.18" y1="22.86" x2="55.88" y2="22.86" width="0.8128" layer="97"/>
 <wire x1="55.88" y1="22.86" x2="55.88" y2="-7.62" width="0.8128" layer="97"/>
-<wire x1="55.88" y1="-7.62" x2="-33.02" y2="-7.62" width="0.8128" layer="97"/>
-<wire x1="-33.02" y1="-7.62" x2="-33.02" y2="22.86" width="0.8128" layer="97"/>
+<wire x1="55.88" y1="-7.62" x2="-43.18" y2="-7.62" width="0.8128" layer="97"/>
+<wire x1="-43.18" y1="-7.62" x2="-43.18" y2="22.86" width="0.8128" layer="97"/>
 </plain>
 <instances>
 <instance part="BOOT" gate="G$1" x="-22.86" y="-25.4" smashed="yes" rot="R90">
