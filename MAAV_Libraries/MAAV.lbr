@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1254,6 +1254,23 @@
 <text x="1.708721875" y="2.1236375" size="0.6096" layer="21" font="vector">1</text>
 <text x="-2.095771875" y="2.1246375" size="0.6096" layer="21" font="vector">4</text>
 </package>
+<package name="PIN_HEADER_6POS_2ROW_THRU">
+<pad name="1" x="-2.54" y="0" drill="1" shape="square" first="yes"/>
+<pad name="2" x="0" y="0" drill="1"/>
+<pad name="3" x="2.54" y="0" drill="1"/>
+<pad name="4" x="-2.54" y="-2.54" drill="1"/>
+<pad name="NC1" x="0" y="-2.54" drill="1"/>
+<pad name="NC2" x="2.54" y="-2.54" drill="1"/>
+<text x="-4.6" y="-0.64" size="1.27" layer="21" font="vector">1</text>
+<text x="-4.6" y="-3.24" size="1.27" layer="21" font="vector">4</text>
+<wire x1="-4.826" y1="1.016" x2="-4.826" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-4.826" y1="-3.556" x2="-1.524" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="-3.556" x2="-1.524" y2="1.016" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1.524" y1="1.016" x2="-4.826" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="1.016" x2="3.556" y2="1.016" width="0.127" layer="21"/>
+<wire x1="3.556" y1="1.016" x2="3.556" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="3.556" y1="-3.556" x2="-1.524" y2="-3.556" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LCD">
@@ -1897,6 +1914,24 @@
 <circle x="2.286" y="0" radius="0.3175" width="0.254" layer="94"/>
 <circle x="-2.286" y="0" radius="0.3175" width="0.254" layer="94"/>
 <wire x1="-2.032" y1="0.254" x2="2.286" y2="2.032" width="0.254" layer="94"/>
+</symbol>
+<symbol name="EDGE_LITE_CONNECTOR">
+<wire x1="-1.524" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-12.7" x2="-1.524" y2="-3.81" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="2.54" visible="pad" length="middle"/>
+<pin name="P$2" x="-5.08" y="0" visible="pad" length="middle"/>
+<pin name="P$3" x="-5.08" y="-2.54" visible="pad" length="middle"/>
+<wire x1="-1.524" y1="-3.81" x2="-1.524" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.778" y2="2.54" width="0.8128" layer="94"/>
+<wire x1="0" y1="0" x2="1.778" y2="0" width="0.8128" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.778" y2="-2.54" width="0.8128" layer="94"/>
+<pin name="P$4" x="-5.08" y="-10.16" visible="pad" length="middle"/>
+<wire x1="0" y1="-10.16" x2="1.778" y2="-10.16" width="0.8128" layer="94"/>
+<wire x1="-1.524" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<text x="-2.54" y="-15.24" size="1.778" layer="104">&gt;NAME</text>
+<wire x1="-1.524" y1="-3.81" x2="5.08" y2="-3.81" width="0.254" layer="94" style="shortdash"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3107,6 +3142,26 @@
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EDGE_LITE_CONN_HEADER">
+<gates>
+<gate name="G$1" symbol="EDGE_LITE_CONNECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_3X2_THRU_HOLE" package="PIN_HEADER_6POS_2ROW_THRU">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="952-2092-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
