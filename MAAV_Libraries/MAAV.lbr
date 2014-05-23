@@ -3228,7 +3228,9 @@
 <connect gate="G$1" pin="V_O" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY#" value="296-20515-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_SOLDERLESS_TERMINAL" package="POWER-MOD-TI-6A-SOLDERLESS-TERMINAL">
@@ -3241,7 +3243,10 @@
 <connect gate="G$1" pin="V_O" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="ANOTHER_DIGIKEY#" value="ED90452-ND" constant="no"/>
+<attribute name="DIGIKEY#" value="296-20515-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
