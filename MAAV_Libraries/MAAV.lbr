@@ -1287,6 +1287,13 @@
 <text x="-9.525" y="-3.175" size="0.8128" layer="27" ratio="10">&gt;Value</text>
 <text x="-9.525" y="3.175" size="0.8128" layer="25" ratio="10">&gt;Name</text>
 <text x="-9.525" y="3.175" size="0.8128" layer="25" ratio="10">&gt;Name</text>
+<text x="-14.28235" y="9.058646875" size="1.27" layer="21" font="vector">1</text>
+<text x="-14.3705125" y="-10.20755" size="1.27" layer="21" font="vector">2</text>
+<text x="-3.482425" y="-8.1306875" size="1.27" layer="21" font="vector">3</text>
+<text x="-0.39673125" y="-8.174878125" size="1.27" layer="21" font="vector">4</text>
+<text x="2.73304375" y="-8.219065625" size="1.27" layer="21" font="vector">5</text>
+<text x="16.794984375" y="-10.2517375" size="1.27" layer="21" font="vector">6</text>
+<text x="16.927228125" y="9.014459375" size="1.27" layer="21" font="vector">7</text>
 </package>
 <package name="POWER-MOD-TI-6A-SOLDERLESS-TERMINAL">
 <pad name="3" x="-3.175" y="-9.525" drill="1.8034"/>
@@ -1304,6 +1311,27 @@
 <text x="-9.525" y="-3.175" size="0.8128" layer="27" ratio="10">&gt;Value</text>
 <text x="-9.525" y="3.175" size="0.8128" layer="25" ratio="10">&gt;Name</text>
 <text x="-9.525" y="3.175" size="0.8128" layer="25" ratio="10">&gt;Name</text>
+<text x="-14.0581625" y="8.89" size="1.27" layer="21" font="vector">1</text>
+<text x="-14.0581625" y="-10.16" size="1.27" layer="21" font="vector">2</text>
+<text x="-3.5705875" y="-7.82136875" size="1.27" layer="21" font="vector">3</text>
+<text x="-0.4408125" y="-7.865559375" size="1.27" layer="21" font="vector">4</text>
+<text x="2.73304375" y="-7.909746875" size="1.27" layer="21" font="vector">5</text>
+<text x="16.486415625" y="-10.1633625" size="1.27" layer="21" font="vector">6</text>
+<text x="16.574578125" y="8.88189375" size="1.27" layer="21" font="vector">7</text>
+</package>
+<package name="SWITCH_4PDT_MMS42">
+<pad name="A3" x="-1" y="1.25" drill="0.7" rot="R90"/>
+<pad name="A2" x="-3" y="1.25" drill="0.7" rot="R90"/>
+<pad name="A1" x="-5" y="1.25" drill="0.7" rot="R90"/>
+<pad name="B1" x="1" y="1.25" drill="0.7" rot="R90"/>
+<pad name="B2" x="3" y="1.25" drill="0.7" rot="R90"/>
+<pad name="B3" x="5" y="1.25" drill="0.7" rot="R90"/>
+<pad name="C1" x="-5" y="-1.25" drill="0.7" rot="R90"/>
+<pad name="C2" x="-3" y="-1.25" drill="0.7" rot="R90"/>
+<pad name="C3" x="-1" y="-1.25" drill="0.7" rot="R90"/>
+<pad name="D1" x="1" y="-1.25" drill="0.7" rot="R90"/>
+<pad name="D2" x="3" y="-1.25" drill="0.7" rot="R90"/>
+<pad name="D3" x="5" y="-1.25" drill="0.7" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -1968,17 +1996,54 @@
 <wire x1="-1.524" y1="-3.81" x2="5.08" y2="-3.81" width="0.254" layer="94" style="shortdash"/>
 </symbol>
 <symbol name="POWER-MODULE-TI-6A">
-<wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
-<pin name="V_I" x="-17.78" y="5.08" length="middle" direction="in"/>
-<pin name="INHIBIT" x="-17.78" y="0" length="middle" direction="pas" function="dot"/>
-<pin name="GND" x="-17.78" y="-5.08" length="middle" direction="pwr"/>
-<pin name="ADJ" x="17.78" y="-5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="V_O" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="SENSE" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
+<wire x1="-15.24" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+<pin name="V_I" x="-20.32" y="2.54" length="middle" direction="in"/>
+<pin name="INHIBIT" x="-20.32" y="5.08" length="middle" direction="pas" function="dot"/>
+<pin name="GND@0" x="-7.62" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<pin name="ADJ" x="10.16" y="-12.7" length="middle" direction="pas" rot="R90"/>
+<pin name="V_O" x="20.32" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="SENSE" x="20.32" y="5.08" length="middle" direction="in" rot="R180"/>
 <text x="-12.446" y="8.128" size="2.54" layer="95" ratio="10">&gt;Name</text>
+<pin name="GND@1" x="-5.08" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="4PDT">
+<pin name="P$1" x="-7.62" y="10.16" visible="off" length="middle"/>
+<pin name="P$2" x="-7.62" y="2.54" visible="off" length="middle"/>
+<pin name="P$3" x="-7.62" y="-5.08" visible="off" length="middle"/>
+<pin name="P$4" x="-7.62" y="-12.7" visible="off" length="middle"/>
+<pin name="P$5" x="7.62" y="12.7" visible="off" length="middle" rot="R180"/>
+<pin name="P$6" x="7.62" y="7.62" visible="off" length="middle" rot="R180"/>
+<pin name="P$7" x="7.62" y="5.08" visible="off" length="middle" rot="R180"/>
+<pin name="P$8" x="7.62" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="P$9" x="7.62" y="-2.54" visible="off" length="middle" rot="R180"/>
+<pin name="P$10" x="7.62" y="-7.62" visible="off" length="middle" rot="R180"/>
+<pin name="P$11" x="7.62" y="-10.16" visible="off" length="middle" rot="R180"/>
+<pin name="P$12" x="7.62" y="-15.24" visible="off" length="middle" rot="R180"/>
+<circle x="-2.2225" y="10.16" radius="0.3175" width="0.254" layer="94"/>
+<circle x="2.2225" y="12.7" radius="0.3175" width="0.254" layer="94"/>
+<circle x="-2.2225" y="2.54" radius="0.3175" width="0.254" layer="94"/>
+<circle x="-2.2225" y="-5.08" radius="0.3175" width="0.254" layer="94"/>
+<circle x="-2.2225" y="-12.7" radius="0.3175" width="0.254" layer="94"/>
+<circle x="2.2225" y="-7.62" radius="0.3175" width="0.254" layer="94"/>
+<circle x="2.2225" y="-10.16" radius="0.3175" width="0.254" layer="94"/>
+<circle x="2.2225" y="-2.54" radius="0.3175" width="0.254" layer="94"/>
+<circle x="2.2225" y="0" radius="0.3175" width="0.254" layer="94"/>
+<circle x="2.2225" y="5.08" radius="0.3175" width="0.254" layer="94"/>
+<circle x="2.2225" y="7.62" radius="0.3175" width="0.254" layer="94"/>
+<circle x="2.2225" y="-15.24" radius="0.3175" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="10.16" x2="1.905" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="2.54" x2="1.905" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-5.08" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-12.7" x2="1.905" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="14.605" x2="0" y2="-12.7" width="0.254" layer="94" style="shortdash"/>
+<wire x1="8.89" y1="6.35" x2="-8.89" y2="6.35" width="0.254" layer="94" style="dashdot"/>
+<wire x1="8.89" y1="-1.27" x2="-8.89" y2="-1.27" width="0.254" layer="94" style="dashdot"/>
+<wire x1="8.89" y1="-8.89" x2="-8.89" y2="-8.89" width="0.254" layer="94" style="dashdot"/>
+<wire x1="0" y1="14.605" x2="-0.635" y2="13.6525" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="14.605" x2="0.635" y2="13.6525" width="0.254" layer="94" style="shortdash"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3221,7 +3286,8 @@
 <device name="_DIRECT-SOLDER" package="POWER-MOD-TI-6A-DIRECT-SOLDER">
 <connects>
 <connect gate="G$1" pin="ADJ" pad="4"/>
-<connect gate="G$1" pin="GND" pad="1 7"/>
+<connect gate="G$1" pin="GND@0" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="7"/>
 <connect gate="G$1" pin="INHIBIT" pad="3"/>
 <connect gate="G$1" pin="SENSE" pad="5"/>
 <connect gate="G$1" pin="V_I" pad="2"/>
@@ -3236,7 +3302,8 @@
 <device name="_SOLDERLESS_TERMINAL" package="POWER-MOD-TI-6A-SOLDERLESS-TERMINAL">
 <connects>
 <connect gate="G$1" pin="ADJ" pad="4"/>
-<connect gate="G$1" pin="GND" pad="1 7"/>
+<connect gate="G$1" pin="GND@0" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="7"/>
 <connect gate="G$1" pin="INHIBIT" pad="3"/>
 <connect gate="G$1" pin="SENSE" pad="5"/>
 <connect gate="G$1" pin="V_I" pad="2"/>
@@ -3246,6 +3313,20 @@
 <technology name="">
 <attribute name="ANOTHER_DIGIKEY#" value="ED90452-ND" constant="no"/>
 <attribute name="DIGIKEY#" value="296-20515-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SWITCH-ON-ON_4PDT">
+<gates>
+<gate name="G$1" symbol="4PDT" x="5.08" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SWITCH_4PDT_MMS42">
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="450-1581-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
