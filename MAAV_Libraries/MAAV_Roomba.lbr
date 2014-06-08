@@ -978,9 +978,9 @@ Through-hole SPDT Switch&lt;br&gt;</description>
 <rectangle x1="-0.2286" y1="-0.3048" x2="0.2286" y2="0.3048" layer="51"/>
 <rectangle x1="-0.2286" y1="2.2352" x2="0.2286" y2="2.8448" layer="51"/>
 <rectangle x1="-0.2286" y1="-2.8448" x2="0.2286" y2="-2.2352" layer="51"/>
-<pad name="1" x="0" y="2.4892" drill="0.9" diameter="1.8796"/>
-<pad name="2" x="0" y="0" drill="0.9" diameter="1.8796"/>
-<pad name="3" x="0" y="-2.4892" drill="0.9" diameter="1.8796"/>
+<pad name="1" x="0" y="2.4892" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="0" y="-2.4892" drill="1.016" diameter="1.8796"/>
 <text x="-2.62" y="-1.81" size="1.27" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 </package>
 <package name="SPARKFUN-ELECTROMECHANICAL_SWITCH-SPDT">
@@ -1110,13 +1110,13 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
 <package name="RF_RECIEVER_VERT">
-<pad name="VT" x="-7.62" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="D3" x="-5.08" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="D2" x="-2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="D1" x="0" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="D0" x="2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="+5V" x="5.08" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="GND" x="7.62" y="0" drill="0.8128" shape="long" rot="R90"/>
+<pad name="VT" x="-7.62" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="D3" x="-5.08" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="D2" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="D1" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="D0" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="+5V" x="5.08" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="GND" x="7.62" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-12.065" y="3.175" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
 <wire x1="8.89" y1="-1.905" x2="8.89" y2="1.905" width="0.127" layer="21"/>
 <wire x1="8.89" y1="1.905" x2="-8.89" y2="1.905" width="0.127" layer="21"/>
@@ -1787,7 +1787,11 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <connect gate="G$1" pin="VDD" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY#" value="609-3461-ND" constant="no"/>
+<attribute name="MFR" value="FCI" constant="no"/>
+<attribute name="MPN" value="68000-103HLF" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
