@@ -10109,6 +10109,57 @@ Source: http://www.osram.convergy.de/ ... LA_LO_LA_LY E67B.pdf</description>
 </polygon>
 <text x="-1.397" y="0.889" size="0.6096" layer="25">&gt;Name</text>
 </package>
+<package name="SWITCH_VERT_DPDT">
+<pad name="P$1" x="7.62" y="-2.54" drill="0.8"/>
+<pad name="P$2" x="5.08" y="-2.54" drill="0.8"/>
+<pad name="P$3" x="2.54" y="-2.54" drill="0.8"/>
+<pad name="P$4" x="7.62" y="2.54" drill="0.8"/>
+<pad name="P$5" x="5.08" y="2.54" drill="0.8"/>
+<pad name="P$6" x="2.54" y="2.54" drill="0.8"/>
+<pad name="G1" x="-2.54" y="2.54" drill="0.8"/>
+<pad name="G2" x="-2.54" y="-2.54" drill="0.8"/>
+<wire x1="-7.38" y1="5.08" x2="-7.38" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-7.38" y1="1.27" x2="-7.38" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-7.38" y1="-1.27" x2="-7.38" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-7.38" y1="-5.08" x2="0" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="1.27" x2="0" y2="3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="3.81" x2="0" y2="5.08" width="0.127" layer="21"/>
+<wire x1="0" y1="5.08" x2="-7.38" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-7.38" y1="1.27" x2="-9.88" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-9.88" y1="1.27" x2="-9.88" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-9.88" y1="-1.27" x2="-7.38" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="3.81" x2="8.89" y2="3.81" width="0.127" layer="21"/>
+<wire x1="8.89" y1="3.81" x2="8.89" y2="1.27" width="0.127" layer="21"/>
+<wire x1="8.89" y1="1.27" x2="0" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.27" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-1.27" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-3.81" x2="0" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="6.35" x2="1.27" y2="6.35" width="0.127" layer="39"/>
+<wire x1="1.27" y1="6.35" x2="1.27" y2="5.08" width="0.127" layer="39"/>
+<wire x1="1.27" y1="5.08" x2="10.16" y2="5.08" width="0.127" layer="39"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="10.16" y1="-5.08" x2="1.27" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="-6.35" width="0.127" layer="39"/>
+<wire x1="1.27" y1="-6.35" x2="-7.62" y2="-6.35" width="0.127" layer="39"/>
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.127" layer="39"/>
+<text x="-5.08" y="-2.54" size="0.8128" layer="25" font="vector" rot="R90">&gt;Name</text>
+</package>
+<package name="NKK_VERT_SWITCH_6PIN">
+<pad name="P$1" x="1.27" y="5.08" drill="0.6096"/>
+<pad name="P$2" x="1.27" y="2.54" drill="0.6096"/>
+<pad name="P$3" x="1.27" y="0" drill="0.6096"/>
+<pad name="P$4" x="-1.27" y="5.08" drill="0.6096"/>
+<pad name="P$5" x="-1.27" y="2.54" drill="0.6096"/>
+<pad name="P$6" x="-1.27" y="0" drill="0.6096"/>
+<pad name="NC2" x="-1.27" y="-5.08" drill="0.6096"/>
+<pad name="NC1" x="1.27" y="-5.08" drill="0.6096"/>
+<rectangle x1="-2.667" y1="-6.35" x2="2.667" y2="6.35" layer="39"/>
+<wire x1="-2.54" y1="-8.89" x2="2.54" y2="-8.89" width="0.127" layer="49"/>
+<text x="-1.905" y="-9.525" size="0.4064" layer="49">Board Edge</text>
+</package>
 </packages>
 <symbols>
 <symbol name="R-US">
@@ -10442,6 +10493,84 @@ Source: http://www.osram.convergy.de/ ... LA_LO_LA_LY E67B.pdf</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="97" align="bottom-right">Red</text>
 <text x="-2.54" y="0" size="1.778" layer="97" align="bottom-right">Green</text>
 <text x="-2.54" y="5.08" size="1.778" layer="97" align="bottom-right">Blue</text>
+</symbol>
+<symbol name="SWITCH_DPDT">
+<pin name="P$1" x="-7.62" y="-7.62" visible="off" length="middle"/>
+<pin name="P$2" x="10.16" y="-5.08" visible="off" length="middle" rot="R180"/>
+<pin name="P$3" x="-7.62" y="-2.54" visible="off" length="middle"/>
+<pin name="P$4" x="-7.62" y="2.54" visible="off" length="middle"/>
+<pin name="P$5" x="10.16" y="5.08" visible="off" length="middle" rot="R180"/>
+<pin name="P$6" x="-7.62" y="7.62" visible="off" length="middle"/>
+<circle x="-2.032" y="7.62" radius="0.508" width="0" layer="94"/>
+<circle x="-2.032" y="2.54" radius="0.508" width="0" layer="94"/>
+<circle x="-2.032" y="-2.54" radius="0.508" width="0" layer="94"/>
+<circle x="-2.032" y="-7.62" radius="0.508" width="0" layer="94"/>
+<circle x="4.572" y="-5.08" radius="0.508" width="0" layer="94"/>
+<circle x="4.572" y="5.08" radius="0.508" width="0" layer="94"/>
+<wire x1="4.572" y1="5.08" x2="-2.54" y2="7.112" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-5.08" x2="-2.54" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="5.588" width="0.254" layer="94" style="shortdash"/>
+<text x="-2.54" y="10.16" size="1.27" layer="95" font="vector">&gt;Name</text>
+<wire x1="1.27" y1="6.35" x2="1.27" y2="9.398" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.27" y1="9.398" x2="0.508" y2="8.636" width="0.254" layer="94"/>
+<wire x1="1.27" y1="9.398" x2="2.032" y2="8.636" width="0.254" layer="94"/>
+<text x="2.286" y="8.382" size="1.27" layer="94">up</text>
+</symbol>
+<symbol name="SWITCH_SPDT_ILUMINATED_2COLOR">
+<pin name="P$1" x="-7.62" y="2.54" visible="off" length="middle"/>
+<pin name="P$2" x="10.16" y="5.08" visible="off" length="middle" rot="R180"/>
+<pin name="P$3" x="-7.62" y="7.62" visible="off" length="middle"/>
+<pin name="P$4" x="10.16" y="-5.08" visible="off" length="middle" rot="R180"/>
+<pin name="P$5" x="-7.62" y="-2.54" visible="off" length="middle"/>
+<pin name="P$6" x="10.16" y="-2.54" visible="off" length="middle" rot="R180"/>
+<circle x="-2.032" y="7.62" radius="0.508" width="0" layer="94"/>
+<circle x="-2.032" y="2.54" radius="0.508" width="0" layer="94"/>
+<circle x="4.572" y="5.08" radius="0.508" width="0" layer="94"/>
+<wire x1="4.572" y1="5.08" x2="-2.54" y2="7.112" width="0.254" layer="94"/>
+<text x="-2.54" y="10.16" size="1.27" layer="95" font="vector">&gt;Name</text>
+<wire x1="1.27" y1="6.35" x2="1.27" y2="9.398" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.27" y1="9.398" x2="0.508" y2="8.636" width="0.254" layer="94"/>
+<wire x1="1.27" y1="9.398" x2="2.032" y2="8.636" width="0.254" layer="94"/>
+<text x="2.286" y="8.382" size="1.27" layer="94">up</text>
+<wire x1="0.762" y1="-2.032" x2="0.762" y2="-2.54" width="0.0762" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.048" width="0.0762" layer="94"/>
+<wire x1="0.762" y1="-3.048" x2="1.524" y2="-2.54" width="0.0762" layer="94"/>
+<wire x1="1.524" y1="-2.54" x2="0.762" y2="-2.032" width="0.0762" layer="94"/>
+<wire x1="1.016" y1="-1.524" x2="1.27" y2="-1.27" width="0.0762" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-1.524" width="0.0762" layer="94"/>
+<wire x1="1.27" y1="-1.524" x2="1.778" y2="-1.016" width="0.0762" layer="94"/>
+<wire x1="1.778" y1="-1.016" x2="1.524" y2="-1.016" width="0.0762" layer="94"/>
+<wire x1="1.778" y1="-1.016" x2="1.778" y2="-1.27" width="0.0762" layer="94"/>
+<wire x1="1.524" y1="-1.778" x2="1.778" y2="-1.524" width="0.0762" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="1.778" y2="-1.778" width="0.0762" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="2.286" y2="-1.27" width="0.0762" layer="94"/>
+<wire x1="2.286" y1="-1.27" x2="2.032" y2="-1.27" width="0.0762" layer="94"/>
+<wire x1="2.286" y1="-1.27" x2="2.286" y2="-1.524" width="0.0762" layer="94"/>
+<wire x1="1.524" y1="-2.032" x2="1.524" y2="-2.54" width="0.0762" layer="94"/>
+<wire x1="1.524" y1="-2.54" x2="1.524" y2="-3.048" width="0.0762" layer="94"/>
+<wire x1="0.762" y1="-4.572" x2="0.762" y2="-5.08" width="0.0762" layer="94"/>
+<wire x1="0.762" y1="-5.08" x2="0.762" y2="-5.588" width="0.0762" layer="94"/>
+<wire x1="0.762" y1="-5.588" x2="1.524" y2="-5.08" width="0.0762" layer="94"/>
+<wire x1="1.524" y1="-5.08" x2="0.762" y2="-4.572" width="0.0762" layer="94"/>
+<wire x1="1.016" y1="-4.064" x2="1.27" y2="-3.81" width="0.0762" layer="94"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="-4.064" width="0.0762" layer="94"/>
+<wire x1="1.27" y1="-4.064" x2="1.778" y2="-3.556" width="0.0762" layer="94"/>
+<wire x1="1.778" y1="-3.556" x2="1.524" y2="-3.556" width="0.0762" layer="94"/>
+<wire x1="1.778" y1="-3.556" x2="1.778" y2="-3.81" width="0.0762" layer="94"/>
+<wire x1="1.524" y1="-4.318" x2="1.778" y2="-4.064" width="0.0762" layer="94"/>
+<wire x1="1.778" y1="-4.064" x2="1.778" y2="-4.318" width="0.0762" layer="94"/>
+<wire x1="1.778" y1="-4.318" x2="2.286" y2="-3.81" width="0.0762" layer="94"/>
+<wire x1="2.286" y1="-3.81" x2="2.032" y2="-3.81" width="0.0762" layer="94"/>
+<wire x1="2.286" y1="-3.81" x2="2.286" y2="-4.064" width="0.0762" layer="94"/>
+<wire x1="1.524" y1="-4.572" x2="1.524" y2="-5.08" width="0.0762" layer="94"/>
+<wire x1="1.524" y1="-5.08" x2="1.524" y2="-5.588" width="0.0762" layer="94"/>
+<wire x1="1.524" y1="-2.54" x2="5.08" y2="-2.54" width="0.0762" layer="94"/>
+<wire x1="1.524" y1="-5.08" x2="5.08" y2="-5.08" width="0.0762" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0" y2="-2.54" width="0.0762" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.0762" layer="94"/>
+<wire x1="0.762" y1="-5.08" x2="0" y2="-5.08" width="0.0762" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.0762" layer="94"/>
+<text x="2.794" y="-4.826" size="0.6096" layer="97">If Dual color</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -11225,6 +11354,65 @@ Source: www.fairchildsemi.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="SWITCH_DPDT" prefix="S">
+<gates>
+<gate name="G$1" symbol="SWITCH_DPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_VERT_SLIDE" package="SWITCH_VERT_DPDT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="AS22AV-ND"/>
+</technology>
+</technologies>
+</device>
+<device name="_VERT_TOGGLE" package="NKK_VERT_SWITCH_6PIN">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="360-2624-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SWITCH_SPDT_ILUMINATED_2COLOR" prefix="S">
+<gates>
+<gate name="G$1" symbol="SWITCH_SPDT_ILUMINATED_2COLOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_VERT_ILLUMINATED" package="NKK_VERT_SWITCH_6PIN">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="360-1772-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="imu">
@@ -11488,6 +11676,9 @@ Source: www.fairchildsemi.com</description>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="D2" library="Jon_LIB" deviceset="LED_RGB_CA" device=""/>
+<part name="S1" library="Jon_LIB" deviceset="SWITCH_DPDT" device="_VERT_TOGGLE"/>
+<part name="S3" library="Jon_LIB" deviceset="SWITCH_SPDT_ILUMINATED_2COLOR" device="_VERT_ILLUMINATED"/>
+<part name="S4" library="Jon_LIB" deviceset="SWITCH_SPDT_ILUMINATED_2COLOR" device="_VERT_ILLUMINATED"/>
 </parts>
 <sheets>
 <sheet>
@@ -12170,23 +12361,23 @@ of the regulator body</text>
 </net>
 <net name="KILL_4" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="PE1"/>
-<wire x1="38.1" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
-<label x="38.1" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="33.02" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
+<label x="33.02" y="73.66" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="PE2"/>
 </segment>
 </net>
 <net name="KILL_5" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="PE2"/>
-<wire x1="38.1" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
-<label x="38.1" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="33.02" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
+<label x="33.02" y="71.12" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="PE1"/>
 </segment>
 </net>
 <net name="KILL_6" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="PE3"/>
-<wire x1="38.1" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
-<label x="38.1" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="33.02" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
+<label x="33.02" y="68.58" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="PE0"/>
 </segment>
 </net>
 <net name="RC_6" class="0">
@@ -12198,9 +12389,9 @@ of the regulator body</text>
 </net>
 <net name="KILL_SIG" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="PE0"/>
-<wire x1="38.1" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<label x="38.1" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="33.02" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
+<label x="33.02" y="76.2" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="PE3"/>
 </segment>
 </net>
 <net name="T_RED_LED" class="0">
@@ -12525,9 +12716,9 @@ of the regulator body</text>
 </net>
 <net name="LED1" class="0">
 <segment>
-<wire x1="170.18" y1="149.86" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="(OC1)PB1"/>
-<label x="175.26" y="149.86" size="1.27" layer="95" xref="yes"/>
+<wire x1="170.18" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
+<label x="175.26" y="147.32" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="(ICP)PB0"/>
 </segment>
 <segment>
 <label x="215.9" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -12539,9 +12730,9 @@ of the regulator body</text>
 </net>
 <net name="LED2" class="0">
 <segment>
-<wire x1="175.26" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="(ICP)PB0"/>
-<label x="175.26" y="147.32" size="1.27" layer="95" xref="yes"/>
+<wire x1="175.26" y1="149.86" x2="170.18" y2="149.86" width="0.1524" layer="91"/>
+<label x="175.26" y="149.86" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="(OC1)PB1"/>
 </segment>
 <segment>
 <label x="215.9" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -12999,6 +13190,9 @@ WM9171CT-ND</text>
 <instance part="P+8" gate="1" x="142.24" y="53.34" smashed="yes">
 <attribute name="VALUE" x="139.446" y="53.848" size="1.778" layer="96"/>
 </instance>
+<instance part="S1" gate="G$1" x="231.14" y="180.34"/>
+<instance part="S3" gate="G$1" x="231.14" y="157.48"/>
+<instance part="S4" gate="G$1" x="213.36" y="142.24"/>
 </instances>
 <busses>
 </busses>
