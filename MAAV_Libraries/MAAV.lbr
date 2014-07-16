@@ -1252,8 +1252,8 @@
 <smd name="2" x="0.625" y="0.9" dx="1.8" dy="0.7" layer="1" rot="R90"/>
 <smd name="3" x="-0.625" y="0.9" dx="1.8" dy="0.7" layer="1" rot="R90"/>
 <rectangle x1="-3.325" y1="1.8" x2="3.325" y2="6.8" layer="39"/>
-<text x="1.708721875" y="2.1236375" size="0.6096" layer="21" font="vector">1</text>
-<text x="-2.095771875" y="2.1246375" size="0.6096" layer="21" font="vector">4</text>
+<text x="1.708721875" y="2.1236375" size="0.6096" layer="49" font="vector">1</text>
+<text x="-2.095771875" y="2.1246375" size="0.6096" layer="49" font="vector">4</text>
 </package>
 <package name="PIN_HEADER_6POS_2ROW_THRU">
 <pad name="1" x="-2.54" y="0" drill="1" shape="square" first="yes"/>
@@ -1309,16 +1309,16 @@
 <wire x1="20.574" y1="-11.049" x2="-17.399" y2="-11.049" width="0.127" layer="21"/>
 <wire x1="-17.399" y1="-11.049" x2="-17.399" y2="11.049" width="0.127" layer="21"/>
 <rectangle x1="-17.907" y1="-11.557" x2="21.082" y2="11.557" layer="39"/>
-<text x="-9.525" y="-3.175" size="0.8128" layer="27" ratio="10">&gt;Value</text>
+<text x="-9.525" y="-3.175" size="0.8128" layer="27" ratio="15">&gt;Value</text>
 <text x="-9.525" y="3.175" size="0.8128" layer="25" ratio="10">&gt;Name</text>
 <text x="-9.525" y="3.175" size="0.8128" layer="25" ratio="10">&gt;Name</text>
-<text x="-14.0581625" y="8.89" size="1.27" layer="21" font="vector">1</text>
-<text x="-14.0581625" y="-10.16" size="1.27" layer="21" font="vector">2</text>
-<text x="-3.5705875" y="-7.82136875" size="1.27" layer="21" font="vector">3</text>
-<text x="-0.4408125" y="-7.865559375" size="1.27" layer="21" font="vector">4</text>
-<text x="2.73304375" y="-7.909746875" size="1.27" layer="21" font="vector">5</text>
-<text x="16.486415625" y="-10.1633625" size="1.27" layer="21" font="vector">6</text>
-<text x="16.574578125" y="8.88189375" size="1.27" layer="21" font="vector">7</text>
+<text x="-14.0581625" y="8.89" size="1.27" layer="49" font="vector" ratio="15">1</text>
+<text x="-14.0581625" y="-10.16" size="1.27" layer="49" font="vector" ratio="15">2</text>
+<text x="-3.5705875" y="-7.82136875" size="1.27" layer="49" font="vector" ratio="15">3</text>
+<text x="-0.4408125" y="-7.865559375" size="1.27" layer="49" font="vector" ratio="15">4</text>
+<text x="2.73304375" y="-7.909746875" size="1.27" layer="49" font="vector" ratio="15">5</text>
+<text x="16.486415625" y="-10.1633625" size="1.27" layer="49" font="vector" ratio="15">6</text>
+<text x="16.574578125" y="8.88189375" size="1.27" layer="49" font="vector" ratio="15">7</text>
 </package>
 <package name="MOLEX_SABRE_2POS">
 <pad name="P2" x="-3.7465" y="0" drill="1.778" diameter="3.81"/>

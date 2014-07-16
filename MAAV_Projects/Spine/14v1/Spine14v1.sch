@@ -8347,8 +8347,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <smd name="2" x="0.625" y="0.9" dx="1.8" dy="0.7" layer="1" rot="R90"/>
 <smd name="3" x="-0.625" y="0.9" dx="1.8" dy="0.7" layer="1" rot="R90"/>
 <rectangle x1="-3.325" y1="1.8" x2="3.325" y2="6.8" layer="39"/>
-<text x="1.708721875" y="2.1236375" size="0.6096" layer="21" font="vector">1</text>
-<text x="-2.095771875" y="2.1246375" size="0.6096" layer="21" font="vector">4</text>
+<text x="1.708721875" y="2.1236375" size="0.6096" layer="49" font="vector">1</text>
+<text x="-2.095771875" y="2.1246375" size="0.6096" layer="49" font="vector">4</text>
 </package>
 <package name="POWER-MOD-TI-6A-SOLDERLESS-TERMINAL">
 <pad name="3" x="-3.175" y="-9.525" drill="1.8034"/>
@@ -8363,16 +8363,16 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="20.574" y1="-11.049" x2="-17.399" y2="-11.049" width="0.127" layer="21"/>
 <wire x1="-17.399" y1="-11.049" x2="-17.399" y2="11.049" width="0.127" layer="21"/>
 <rectangle x1="-17.907" y1="-11.557" x2="21.082" y2="11.557" layer="39"/>
-<text x="-9.525" y="-3.175" size="0.8128" layer="27" ratio="10">&gt;Value</text>
+<text x="-9.525" y="-3.175" size="0.8128" layer="27" ratio="15">&gt;Value</text>
 <text x="-9.525" y="3.175" size="0.8128" layer="25" ratio="10">&gt;Name</text>
 <text x="-9.525" y="3.175" size="0.8128" layer="25" ratio="10">&gt;Name</text>
-<text x="-14.0581625" y="8.89" size="1.27" layer="21" font="vector">1</text>
-<text x="-14.0581625" y="-10.16" size="1.27" layer="21" font="vector">2</text>
-<text x="-3.5705875" y="-7.82136875" size="1.27" layer="21" font="vector">3</text>
-<text x="-0.4408125" y="-7.865559375" size="1.27" layer="21" font="vector">4</text>
-<text x="2.73304375" y="-7.909746875" size="1.27" layer="21" font="vector">5</text>
-<text x="16.486415625" y="-10.1633625" size="1.27" layer="21" font="vector">6</text>
-<text x="16.574578125" y="8.88189375" size="1.27" layer="21" font="vector">7</text>
+<text x="-14.0581625" y="8.89" size="1.27" layer="49" font="vector" ratio="15">1</text>
+<text x="-14.0581625" y="-10.16" size="1.27" layer="49" font="vector" ratio="15">2</text>
+<text x="-3.5705875" y="-7.82136875" size="1.27" layer="49" font="vector" ratio="15">3</text>
+<text x="-0.4408125" y="-7.865559375" size="1.27" layer="49" font="vector" ratio="15">4</text>
+<text x="2.73304375" y="-7.909746875" size="1.27" layer="49" font="vector" ratio="15">5</text>
+<text x="16.486415625" y="-10.1633625" size="1.27" layer="49" font="vector" ratio="15">6</text>
+<text x="16.574578125" y="8.88189375" size="1.27" layer="49" font="vector" ratio="15">7</text>
 </package>
 <package name="POWER-MOD-TI-6A-DIRECT-SOLDER">
 <pad name="3" x="-3.175" y="-9.525" drill="1.397"/>
@@ -8971,15 +8971,15 @@ by exp-lbrs.ulp</description>
 <wire x1="-1.32" y1="-0.57" x2="-1.32" y2="0.57" width="0.06" layer="39"/>
 <smd name="1" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
 <smd name="2" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
-<text x="-1.395" y="0.7682" size="0.6096" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.395" y="0.7682" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="1.849" y="-0.719" size="0.6096" layer="27" font="vector" ratio="10" rot="R180">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<wire x1="-1.35" y1="0.6" x2="1.35" y2="0.6" width="0.12" layer="21"/>
-<wire x1="1.35" y1="0.6" x2="1.35" y2="-0.6" width="0.12" layer="21"/>
-<wire x1="1.35" y1="-0.6" x2="-1.35" y2="-0.6" width="0.12" layer="21"/>
-<wire x1="-1.35" y1="-0.6" x2="-1.35" y2="0.6" width="0.12" layer="21"/>
+<wire x1="-1.35" y1="0.6" x2="1.35" y2="0.6" width="0.127" layer="21"/>
+<wire x1="1.35" y1="0.6" x2="1.35" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="1.35" y1="-0.6" x2="-1.35" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-1.35" y1="-0.6" x2="-1.35" y2="0.6" width="0.127" layer="21"/>
 <rectangle x1="-0.8" y1="-0.4" x2="0.8" y2="0.4" layer="49"/>
 </package>
 <package name="R0805">
@@ -9357,8 +9357,8 @@ by exp-lbrs.ulp</description>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.8" y="0" dx="0.95" dy="1" layer="1"/>
 <smd name="2" x="0.8" y="0" dx="0.95" dy="1" layer="1"/>
-<text x="-1.27" y="1.27" size="0.6096" layer="25" font="vector" ratio="10" align="center-left">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="0.6096" layer="27" font="vector" ratio="10" align="center-left">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="0.8128" layer="25" font="vector" ratio="15" align="center-left">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="0.8128" layer="27" font="vector" ratio="15" align="center-left">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.19" y1="-0.3" x2="0.19" y2="0.3" layer="35"/>
@@ -9366,8 +9366,8 @@ by exp-lbrs.ulp</description>
 <wire x1="1.55" y1="0.75" x2="1.55" y2="-0.75" width="0.127" layer="21"/>
 <wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.127" layer="21"/>
 <wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.127" layer="21"/>
-<wire x1="-0.11" y1="0.5" x2="-0.11" y2="-0.5" width="0.0762" layer="21"/>
-<wire x1="0.11" y1="-0.5" x2="0.11" y2="0.5" width="0.0762" layer="21"/>
+<wire x1="-0.11" y1="0.5" x2="-0.11" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0.11" y1="-0.5" x2="0.11" y2="0.5" width="0.127" layer="21"/>
 </package>
 <package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
@@ -9379,8 +9379,8 @@ by exp-lbrs.ulp</description>
 <wire x1="1.9" y1="0.98" x2="1.9" y2="-0.98" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.5288" y="1.1192" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.6112" y="-1.9908" size="0.8128" layer="27" font="vector" rot="R180" align="top-right">&gt;VALUE</text>
+<text x="-1.5288" y="1.1192" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.6112" y="-1.9908" size="0.8128" layer="27" font="vector" ratio="15" rot="R180" align="top-right">&gt;VALUE</text>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
@@ -9388,8 +9388,8 @@ by exp-lbrs.ulp</description>
 <wire x1="1.8" y1="0.94" x2="1.8" y2="-0.94" width="0.127" layer="21"/>
 <wire x1="1.8" y1="-0.94" x2="-1.8" y2="-0.94" width="0.127" layer="21"/>
 <wire x1="-1.8" y1="-0.94" x2="-1.8" y2="0.94" width="0.127" layer="21"/>
-<wire x1="-0.14" y1="0.7" x2="-0.14" y2="-0.7" width="0.09" layer="21"/>
-<wire x1="0.14" y1="0.7" x2="0.14" y2="-0.7" width="0.09" layer="21"/>
+<wire x1="-0.14" y1="0.7" x2="-0.14" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="0.14" y1="0.7" x2="0.14" y2="-0.7" width="0.127" layer="21"/>
 </package>
 <package name="C1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
@@ -9399,8 +9399,8 @@ by exp-lbrs.ulp</description>
 <wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
 <smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-2.159" y="1.397" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.186" y="-2.103" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<text x="-2.159" y="1.397" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-2.186" y="-2.103" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 <wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.127" layer="21"/>
 <wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.127" layer="21"/>
@@ -9680,16 +9680,16 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;</description>
 <smd name="C" x="0.75" y="0" dx="0.8" dy="0.8" layer="1" rot="R270"/>
 <smd name="A" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1" rot="R270"/>
-<text x="-1.3232" y="0.7522" size="0.6096" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-1.3286" y="-0.7214" size="0.6096" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
+<text x="-1.3232" y="0.7522" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.3286" y="-0.7214" size="0.8128" layer="27" font="vector" ratio="15" align="top-left">&gt;VALUE</text>
 <wire x1="-1.32" y1="0.57" x2="-1.32" y2="-0.57" width="0.06" layer="39"/>
 <wire x1="-1.32" y1="-0.57" x2="1.32" y2="-0.57" width="0.06" layer="39"/>
 <wire x1="1.32" y1="-0.57" x2="1.32" y2="0.57" width="0.06" layer="39"/>
 <wire x1="1.32" y1="0.57" x2="-1.32" y2="0.57" width="0.06" layer="39"/>
-<wire x1="-1.35" y1="0.6" x2="1.35" y2="0.6" width="0.12" layer="21"/>
-<wire x1="1.35" y1="0.6" x2="1.35" y2="-0.6" width="0.12" layer="21"/>
-<wire x1="1.35" y1="-0.6" x2="-1.35" y2="-0.6" width="0.12" layer="21"/>
-<wire x1="-1.35" y1="-0.6" x2="-1.35" y2="0.6" width="0.12" layer="21"/>
+<wire x1="-1.35" y1="0.6" x2="1.35" y2="0.6" width="0.127" layer="21"/>
+<wire x1="1.35" y1="0.6" x2="1.35" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="1.35" y1="-0.6" x2="-1.35" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-1.35" y1="-0.6" x2="-1.35" y2="0.6" width="0.127" layer="21"/>
 <rectangle x1="-0.8" y1="-0.4" x2="0.8" y2="0.4" layer="49"/>
 <polygon width="0.0254" layer="21">
 <vertex x="0.2302" y="0"/>
@@ -10106,7 +10106,7 @@ Source: http://www.osram.convergy.de/ ... LA_LO_LA_LY E67B.pdf</description>
 <vertex x="-0.5" y="0"/>
 <vertex x="0.25" y="-0.5"/>
 </polygon>
-<text x="-1.397" y="0.889" size="0.6096" layer="25">&gt;Name</text>
+<text x="-1.397" y="0.889" size="0.8128" layer="25" ratio="15">&gt;Name</text>
 </package>
 <package name="NKK_VERT_SWITCH_6PIN">
 <pad name="P$1" x="1.27" y="5.08" drill="0.6096"/>
@@ -13878,6 +13878,34 @@ and connects the logic line to the motors</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,4,154.94,129.54,CONV,VCC,+3V3,,,"/>
+<approved hash="104,1,111.76,99.06,U3,VIN,+5V,,,"/>
+<approved hash="104,1,142.24,99.06,U3,VOUT,+3V3,,,"/>
+<approved hash="208,1,162.56,154.94,+5V,out,,,,"/>
+<approved hash="208,1,182.88,162.56,+5V,sup,,,,"/>
+<approved hash="208,1,106.68,101.6,+5V,sup,,,,"/>
+<approved hash="208,2,243.84,109.22,+5V,sup,,,,"/>
+<approved hash="208,3,269.24,116.84,+5V,sup,,,,"/>
+<approved hash="208,5,33.02,134.62,+5V,sup,,,,"/>
+<approved hash="208,5,66.04,134.62,+5V,sup,,,,"/>
+<approved hash="208,5,91.44,162.56,+5V,sup,,,,"/>
+<approved hash="208,5,149.86,142.24,+5V,sup,,,,"/>
+<approved hash="208,5,149.86,116.84,+5V,sup,,,,"/>
+<approved hash="208,5,142.24,50.8,+5V,sup,,,,"/>
+<approved hash="208,5,269.24,167.64,+5V,sup,,,,"/>
+<approved hash="208,5,269.24,137.16,+5V,sup,,,,"/>
+<approved hash="208,5,269.24,106.68,+5V,sup,,,,"/>
+<approved hash="208,5,195.58,86.36,+5V,sup,,,,"/>
+<approved hash="115,3,220.98,161.485,SV1,,,,,"/>
+<approved hash="115,1,139.596,107.846,FRAME1,,,,,"/>
+<approved hash="115,3,139.596,107.846,FRAME2,,,,,"/>
+<approved hash="115,5,139.596,107.846,FRAME3,,,,,"/>
+<approved hash="115,4,139.596,107.846,FRAME4,,,,,"/>
+<approved hash="115,2,139.596,107.846,FRAME5,,,,,"/>
+<approved hash="115,5,214.241,53.34,S_R,,,,,"/>
+<approved hash="115,5,202.077,87.8247,DJI_SIG,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
